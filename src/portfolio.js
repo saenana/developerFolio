@@ -216,7 +216,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "45-page report",
-          url: require("./assets/files/steering-report.pdf")
+          url: " " //require("./assets/files/steering-report.pdf")
         }
       ]
     },
