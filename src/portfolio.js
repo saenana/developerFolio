@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Sae Na Na",
+  title: "Hi all, I'm Sae Na",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "Welcome to my portfolio showcasing robotics, machine learning, mechatronics, and mechanical engineering projects"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -137,13 +137,13 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/evolving-robot.png"),
+      projectName: "Evolutionary Algorithms",
+      projectDesc: "Using an evolutionary algorithms to optimize robot speed throughout epochs in C++, using the Titan package",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Video of evolving robots",
+          url: "https://youtu.be/yHAm-wvp20A"
         }
         //  you can add extra buttons here.
       ]
@@ -160,7 +160,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -206,7 +206,7 @@ const achievementSection = {
       footerLink: [
         {name: "Certification", url: ""},
         {
-          name: "Final Project",
+          name: "CEV project website",
           url: "https://cev.engineering.cornell.edu/#/competition"
         }
       ]
