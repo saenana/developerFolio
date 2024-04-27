@@ -142,7 +142,7 @@ const bigProjects = {
         "Using an evolutionary algorithms to optimize robot speed throughout epochs in C++, using the Titan package",
       footerLink: [
         {
-          name: "10s demo of robot evolution",
+          name: "10-sec demo",
           url: "https://youtu.be/yHAm-wvp20A"
         }
         //  you can add extra buttons here.
@@ -155,7 +155,7 @@ const bigProjects = {
         "Designed, 3D-printed, assembled electronics, and developed software for a quadruped walking robot.",
       footerLink: [
         {
-          name: "5 min journey video",
+          name: "5-min journey video",
           url: "https://youtu.be/nrEPlOXd7_k"
         }
       ]
@@ -186,7 +186,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/robotlearning-img.png"),
-      projectName: "Double pendulum: Neural Net vs MPC",
+      projectName: "Triple Pendulum: Neural Net vs MPC",
       projectDesc:
         "Compared the performance of a classical neural network vs from model predictive control for solving the double pendulum problem.",
       footerLink: [
@@ -198,7 +198,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/amr.png"),
-      projectName: "SLAM with waypoint navigation",
+      projectName: "SLAM with Waypoint Navigation",
       projectDesc:
         "Programmed an iRobot Roomba to perform SLAM and navigate a maze to hit as many waypoints in the shortest possible route",
       footerLink: [
@@ -222,7 +222,7 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/comp-stops.png"),
-      projectName: "Composite stops for bipedal robot",
+      projectName: "Composite Stops for Bipedal Robot",
       projectDesc:
         "Designed and manufactured composite stops via 3D-printed molds and two-part foam to use as a mechanical knee buffer for a bidepal robot",
       footerLink: [
@@ -234,20 +234,22 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/carbon-fiber.png"),
-      projectName: "Carbon fiber imaging",
+      projectName: "Carbon Fiber Imaging",
       projectDesc:
         "Prepped a sample of carbon fiber nanotube via hydraulic press mounting and performed CT scan and miscroscope analysis"
     },
 
     {
       image: require("./assets/images/motor-dyno.png"),
-      projectName: "Motor dynamometer",
-      projectDesc: "description"
+      projectName: "Motor Dynamometer",
+      projectDesc:
+        "Designed the CAD for a strain-gauge motor dynamometer to identify the torque vs rotational velocity curve for the motor"
     },
     {
       image: require("./assets/images/mechatronics.png"),
-      projectName: "Cube collecting robot",
-      projectDesc: "description"
+      projectName: "Cube Collecting Robot",
+      projectDesc:
+        "Designed and built a 2-wheel robot, including an H-bridge circuit for PWM motor control, to collect more cubes than the opponent"
     },
     {
       image: require("./assets/images/veggie-chopper2.png"),
