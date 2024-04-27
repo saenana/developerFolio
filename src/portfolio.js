@@ -65,46 +65,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-html5"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
@@ -115,34 +75,6 @@ https://fontawesome.com/icons?d=gallery */
   ],
   display: false // Set false to hide this section, defaults to true
 };
-
-// Education Section
-
-const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
-  schools: [
-    {
-      schoolName: "Columbia University",
-      logo: require("./assets/images/columbia-logo.png"),
-      subHeader: "Master of Science in Mechanical Engineering (Robotics and Controls)",
-      duration: "May 2021 - May 2025",
-      desc: "Attending while working full-time",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Cornell University",
-      logo: require("./assets/images/cornell-logo.png"),
-      subHeader: "Bachelor of Science in Mechanical Engineering",
-      duration: "August 2016 - December 2019",
-      desc: "Summa cum laude. Accelerated studies and graduated in 6 semesters.",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
-  ]
-};
-
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
@@ -235,61 +167,82 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Projects"),
+  title: "Projects",
   subtitle: " ",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Evolutionary Algorithms",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Using an evolutionary algorithms to optimize robot speed throughout epochs in C++, using the Titan package",
+      image: require("./assets/images/evolving-robot.png"),
+      imageAlt: "Evolutionary Algorithms",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Video of evolving robots",
+          url: "https://youtu.be/yHAm-wvp20A"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Catbot",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Designed, 3D-printed, assembled electronics, and developed software for a quadruped walking robot.",
+      image: require("./assets/images/catbot.png"),
+      imageAlt: "Catbot",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "5 minute journey video",
+          url: "https://youtu.be/nrEPlOXd7_k"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Shell Eco-Marathon",
+      subtitle: "Designed, manufactured, and competed with a high-efficiency electric vehicle with a team of ~25 members.",
+      image: require("./assets/images/rr.png"),
+      imageAlt: "Shell Eco-Marathon",
       footerLink: [
         {name: "Certification", url: ""},
         {
           name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          url: "https://cev.engineering.cornell.edu/#/competition"
         }
       ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
 };
+
+
+// Education Section
+
+const educationInfo = {
+  display: true, // Set false to hide this section, defaults to true
+  schools: [
+    {
+      schoolName: "Columbia University",
+      logo: require("./assets/images/columbia-logo.png"),
+      subHeader: "Master of Science in Mechanical Engineering (Robotics and Controls)",
+      duration: "2021 - 2025",
+      desc: "Attending while working full-time",
+      descBullets: [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      ]
+    },
+    {
+      schoolName: "Cornell University",
+      logo: require("./assets/images/cornell-logo.png"),
+      subHeader: "Bachelor of Science in Mechanical Engineering",
+      duration: "2016 - 2019",
+      desc: "Summa cum laude. Accelerated studies and graduated in 6 semesters.",
+      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+    }
+  ]
+};
+
 
 // Blogs Section
 
