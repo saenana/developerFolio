@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Sae Na Na",
-  title: "Hi all, I'm Sae Na",
+  title: "Hello, I'm Sae Na",
   subTitle: emoji(
     "Welcome to my portfolio showcasing some of my robotics, machine learning, mechatronics, and mechanical engineering projects"
   ),
@@ -133,7 +133,7 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
+  title: "Projects",
   subtitle: " ",
   projects: [
     {
@@ -149,24 +149,57 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/catbot.png"),
+      projectName: "Catbot",
+      projectDesc: "Designed, 3D-printed, assembled electronics, and developed software for a quadruped walking robot.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "5 minute journey video",
+          url: "https://youtu.be/nrEPlOXd7_k"
         }
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/rr.png"),
+      projectName: "Shell Eco-Marathon",
+      projectDesc: "Designed, manufactured, and competed with a high-efficiency electric vehicle with a team of ~25 members.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "CEV project website",
+          url: "https://cev.engineering.cornell.edu/#/competition"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/rr.png"),
+      projectName: "Outreach",
+      projectDesc: "Demoing engineering tests and applications to local high school students",
+      footerLink: [
+        {
+          name: "News article",
+          url: "https://www.ctinsider.com/news/thehour/article/Norwalk-robotics-team-gets-inside-look-of-15084347.php"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/gen-design.png"),
+      projectName: "Generatively Designed Brake Pedal",
+      projectDesc: "Designed and metal printed (DMLS) a lightweight brake pedal for the high efficiency electric vehicle",
+      footerLink: [
+        {
+          name: "Report submission",
+          url: "/assets/images/portfolio/gen-design-report.pdf"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/robot-learning-img.png"),
+      projectName: "Double pendulum: Neural Net vs MPC",
+      projectDesc: "Compared the performance of a classical neural network vs from model predictive control for solving the double pendulum problem.",
+      footerLink: [
+        {
+          name: "Result slide deck",
+          url: require("./assets/images/robot-learning-ppt.pdf")
         }
       ]
     }
@@ -224,7 +257,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 
