@@ -137,7 +137,7 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/evolving-robot.png"),
+      image: require("./assets/images/evolving-robots.png"),
       projectName: "Evolutionary Algorithms",
       projectDesc: "Using an evolutionary algorithms to optimize robot speed throughout epochs in C++, using the Titan package",
       footerLink: [
@@ -175,7 +175,7 @@ const achievementSection = {
       title: "Evolutionary Algorithms",
       subtitle:
         "Using an evolutionary algorithms to optimize robot speed throughout epochs in C++, using the Titan package",
-      image: require("./assets/images/evolving-robot.png"),
+      image: require("./assets/images/evolving-robots.png"),
       imageAlt: "Evolutionary Algorithms",
       footerLink: [
         {
