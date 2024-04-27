@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/developerFolio/static/css/main.d24b3d06.css",
-    "main.js": "/developerFolio/static/js/main.7fe08cfe.js",
+    "main.js": "/developerFolio/static/js/main.59b0247a.js",
     "static/css/64.bba8fa55.chunk.css": "/developerFolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/developerFolio/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/developerFolio/static/css/769.b3cbb36b.chunk.css",
@@ -12,14 +12,17 @@
     "static/media/comp-stops.png": "/developerFolio/static/media/comp-stops.e15f8789d0d94c248552.png",
     "static/media/rr.png": "/developerFolio/static/media/rr.f548b9c0b101632c4537.png",
     "static/media/mechatronics.png": "/developerFolio/static/media/mechatronics.e74a7f5e1feaa376492c.png",
+    "static/media/gen-design-report.pdf": "/developerFolio/static/media/gen-design-report.16090d923ddf957bc815.pdf",
     "static/media/carbon-fiber.png": "/developerFolio/static/media/carbon-fiber.1649a4024c40b8e1dc3c.png",
     "static/media/catbot.png": "/developerFolio/static/media/catbot.b50796ff0f5c89e3f223.png",
+    "static/media/robotlearning-ppt.pdf": "/developerFolio/static/media/robotlearning-ppt.0a50afaf58e4b40d46c8.pdf",
+    "static/media/amr-report.pdf": "/developerFolio/static/media/amr-report.b91cdc591d4ba36776a0.pdf",
     "static/media/Montserrat-Regular.ttf": "/developerFolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/veggie-chopper2.png": "/developerFolio/static/media/veggie-chopper2.3837a2180b13feb30c05.png",
     "static/media/evolving-robots.png": "/developerFolio/static/media/evolving-robots.c96bc6b5132430192e29.png",
     "static/media/gen-design.png": "/developerFolio/static/media/gen-design.183fe9adcd8569f87ed6.png",
     "static/media/amr.png": "/developerFolio/static/media/amr.a38e31f65368497a8b5b.png",
-    "static/media/author-549x644.jpg": "/developerFolio/static/media/author-549x644.63c482d53d5ff06ca92a.jpg",
+    "static/media/author-549x644.jpg": "/developerFolio/static/media/author-549x644.9805feebb3bddddbe6f5.jpg",
     "static/media/Agustina.woff": "/developerFolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/contactMailDark.svg": "/developerFolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/developerFolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
@@ -31,7 +34,7 @@
     "index.html": "/developerFolio/index.html",
     "static/media/talksCardBack.svg": "/developerFolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.d24b3d06.css.map": "/developerFolio/static/css/main.d24b3d06.css.map",
-    "main.7fe08cfe.js.map": "/developerFolio/static/js/main.7fe08cfe.js.map",
+    "main.59b0247a.js.map": "/developerFolio/static/js/main.59b0247a.js.map",
     "64.bba8fa55.chunk.css.map": "/developerFolio/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/developerFolio/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/developerFolio/static/css/769.b3cbb36b.chunk.css.map",
@@ -39,6 +42,6 @@
   },
   "entrypoints": [
     "static/css/main.d24b3d06.css",
-    "static/js/main.7fe08cfe.js"
+    "static/js/main.59b0247a.js"
   ]
 }
