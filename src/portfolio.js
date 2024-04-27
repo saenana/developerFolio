@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "Welcome to my portfolio showcasing some of my robotics, machine learning, mechatronics, and mechanical engineering projects"
   ),
-  resumeLink:
-    "./assets/files/Na_SaeNa_Resume.pdf", // Set to empty to hide the button
+  resumeLink: "./assets/files/Na_SaeNa_Resume.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -139,7 +138,8 @@ const bigProjects = {
     {
       image: require("./assets/images/evolving-robots.png"),
       projectName: "Evolutionary Algorithms",
-      projectDesc: "Using an evolutionary algorithms to optimize robot speed throughout epochs in C++, using the Titan package",
+      projectDesc:
+        "Using an evolutionary algorithms to optimize robot speed throughout epochs in C++, using the Titan package",
       footerLink: [
         {
           name: "Video of evolving robots",
@@ -151,7 +151,8 @@ const bigProjects = {
     {
       image: require("./assets/images/catbot.png"),
       projectName: "Catbot",
-      projectDesc: "Designed, 3D-printed, assembled electronics, and developed software for a quadruped walking robot.",
+      projectDesc:
+        "Designed, 3D-printed, assembled electronics, and developed software for a quadruped walking robot.",
       footerLink: [
         {
           name: "5 minute journey video",
@@ -162,7 +163,8 @@ const bigProjects = {
     {
       image: require("./assets/images/rr.png"),
       projectName: "Shell Eco-Marathon",
-      projectDesc: "Designed, manufactured, and competed with a high-efficiency electric vehicle with a team of ~25 members.",
+      projectDesc:
+        "Designed, manufactured, and competed with a high-efficiency electric vehicle with a team of ~25 members.",
       footerLink: [
         {
           name: "CEV project website",
@@ -173,7 +175,8 @@ const bigProjects = {
     {
       image: require("./assets/images/rr.png"),
       projectName: "Outreach",
-      projectDesc: "Demoing engineering tests and applications to local high school students",
+      projectDesc:
+        "Demoing engineering tests and applications to local high school students",
       footerLink: [
         {
           name: "News article",
@@ -184,7 +187,8 @@ const bigProjects = {
     {
       image: require("./assets/images/gen-design.png"),
       projectName: "Generatively Designed Brake Pedal",
-      projectDesc: "Designed and metal printed (DMLS) a lightweight brake pedal for the high efficiency electric vehicle",
+      projectDesc:
+        "Designed and metal printed (DMLS) a lightweight brake pedal for the high efficiency electric vehicle",
       footerLink: [
         {
           name: "Report submission",
@@ -195,7 +199,8 @@ const bigProjects = {
     {
       image: require("./assets/images/robotlearning-img.png"),
       projectName: "Double pendulum: Neural Net vs MPC",
-      projectDesc: "Compared the performance of a classical neural network vs from model predictive control for solving the double pendulum problem.",
+      projectDesc:
+        "Compared the performance of a classical neural network vs from model predictive control for solving the double pendulum problem.",
       footerLink: [
         {
           name: "Result slide deck",
@@ -244,7 +249,8 @@ const achievementSection = {
 
     {
       title: "Shell Eco-Marathon",
-      subtitle: "Designed, manufactured, and competed with a high-efficiency electric vehicle with a team of ~25 members.",
+      subtitle:
+        "Designed, manufactured, and competed with a high-efficiency electric vehicle with a team of ~25 members.",
       image: require("./assets/images/rr.png"),
       imageAlt: "Shell Eco-Marathon",
       footerLink: [
@@ -259,7 +265,6 @@ const achievementSection = {
   display: false // Set false to hide this section, defaults to true
 };
 
-
 // Education Section
 
 const educationInfo = {
@@ -268,7 +273,8 @@ const educationInfo = {
     {
       schoolName: "Columbia University",
       logo: require("./assets/images/columbia-logo.png"),
-      subHeader: "Master of Science in Mechanical Engineering (Robotics and Controls)",
+      subHeader:
+        "Master of Science in Mechanical Engineering (Robotics and Controls)",
       duration: "2021 - 2025",
       desc: "Attending while working full-time",
       descBullets: [
@@ -286,7 +292,6 @@ const educationInfo = {
     }
   ]
 };
-
 
 // Blogs Section
 
