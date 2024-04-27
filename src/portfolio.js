@@ -188,7 +188,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Report submission",
-          url: require("./assets/images/gen-design-report.pdf")
+          url: ""
         }
       ]
     },
@@ -199,7 +199,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Result slide deck",
-          url: require("./assets/images/robotlearning-ppt.pdf")
+          url: ""
         }
       ]
     }
