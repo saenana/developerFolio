@@ -193,13 +193,13 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/robot-learning-img.png"),
+      image: require("./assets/images/robotlearning-img.png"),
       projectName: "Double pendulum: Neural Net vs MPC",
       projectDesc: "Compared the performance of a classical neural network vs from model predictive control for solving the double pendulum problem.",
       footerLink: [
         {
           name: "Result slide deck",
-          url: require("./assets/images/robot-learning-ppt.pdf")
+          url: require("./assets/images/robotlearning-ppt.pdf")
         }
       ]
     }
