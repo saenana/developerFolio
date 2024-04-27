@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/developerFolio/static/css/main.d24b3d06.css",
-    "main.js": "/developerFolio/static/js/main.1ebb46a7.js",
+    "main.js": "/developerFolio/static/js/main.384b3b0a.js",
     "static/css/64.bba8fa55.chunk.css": "/developerFolio/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/developerFolio/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/developerFolio/static/css/769.b3cbb36b.chunk.css",
@@ -11,6 +11,7 @@
     "static/media/outreach.png": "/developerFolio/static/media/outreach.d131b6b5aa5df9816b7f.png",
     "static/media/comp-stops.png": "/developerFolio/static/media/comp-stops.e15f8789d0d94c248552.png",
     "static/media/rr.png": "/developerFolio/static/media/rr.f548b9c0b101632c4537.png",
+    "static/media/steering-report.pdf": "/developerFolio/static/media/steering-report.5b253d20c5ad0c07966f.pdf",
     "static/media/mechatronics.png": "/developerFolio/static/media/mechatronics.e74a7f5e1feaa376492c.png",
     "static/media/gen-design-report.pdf": "/developerFolio/static/media/gen-design-report.887ed742310bbb11edc4.pdf",
     "static/media/carbon-fiber.png": "/developerFolio/static/media/carbon-fiber.1649a4024c40b8e1dc3c.png",
@@ -35,7 +36,7 @@
     "index.html": "/developerFolio/index.html",
     "static/media/talksCardBack.svg": "/developerFolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.d24b3d06.css.map": "/developerFolio/static/css/main.d24b3d06.css.map",
-    "main.1ebb46a7.js.map": "/developerFolio/static/js/main.1ebb46a7.js.map",
+    "main.384b3b0a.js.map": "/developerFolio/static/js/main.384b3b0a.js.map",
     "64.bba8fa55.chunk.css.map": "/developerFolio/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/developerFolio/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/developerFolio/static/css/769.b3cbb36b.chunk.css.map",
@@ -43,6 +44,6 @@
   },
   "entrypoints": [
     "static/css/main.d24b3d06.css",
-    "static/js/main.1ebb46a7.js"
+    "static/js/main.384b3b0a.js"
   ]
 }
