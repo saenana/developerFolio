@@ -26,7 +26,7 @@ const greeting = {
     "Welcome to my portfolio showcasing some of my robotics, machine learning, mechatronics, and mechanical engineering projects"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "./assets/files/Na_SaeNa_Resume.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -105,7 +105,7 @@ const workExperiences = {
       role: "Mechatronics Design Engineer",
       company: "ASML",
       companylogo: require("./assets/images/icon-asml.png"),
-      date: "June 2018 – Present",
+      date: "Aug 2018 - Dec 2018, Jan 2020 – Present",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
@@ -116,7 +116,7 @@ const workExperiences = {
       role: "Hydraulics and Landing Gear Intern",
       company: "Honda Aircraft Company",
       companylogo: require("./assets/images/icon-honda.png"),
-      date: "May 2017 – May 2018",
+      date: "May 2018 – Aug 2018",
       desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
