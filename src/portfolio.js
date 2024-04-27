@@ -188,7 +188,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Report submission",
-          url: "/assets/images/portfolio/gen-design-report.pdf"
+          url: require("./assets/images/gen-design-report.pdf")
         }
       ]
     },
@@ -203,7 +203,6 @@ const bigProjects = {
         }
       ]
     }
-
   ],
   display: true // Set false to hide this section, defaults to true
 };
