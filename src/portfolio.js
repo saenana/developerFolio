@@ -136,6 +136,22 @@ const bigProjects = {
   subtitle: " ",
   projects: [
     {
+      image: require("./assets/images/sfm.png"),
+      projectName: "SfM: 3D Reconstruction from 2D Images",
+      projectDesc:
+        "Exploring the Structure from Motion (SfM) pipeline for the 2024 Image Matching Challenge",
+      footerLink: [
+        {
+          name: "4-page report TBD",
+          url: " "
+        },
+        {
+          name: "Competition link (Kaggle)",
+          url: "https://www.kaggle.com/competitions/image-matching-challenge-2024/overview"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/evolving-robots.png"),
       projectName: "Evolutionary Algorithms",
       projectDesc:
@@ -145,7 +161,6 @@ const bigProjects = {
           name: "10-sec demo",
           url: "https://youtu.be/yHAm-wvp20A"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
