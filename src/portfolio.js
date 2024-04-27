@@ -23,7 +23,7 @@ const greeting = {
   username: "Sae Na Na",
   title: "Hi all, I'm Sae Na",
   subTitle: emoji(
-    "Welcome to my portfolio showcasing robotics, machine learning, mechatronics, and mechanical engineering projects"
+    "Welcome to my portfolio showcasing some of my robotics, machine learning, mechatronics, and mechanical engineering projects"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -134,7 +134,7 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: " ",
   projects: [
     {
       image: require("./assets/images/evolving-robots.png"),
@@ -158,7 +158,19 @@ const bigProjects = {
           url: "http://nextu.se/"
         }
       ]
+    },
+    {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Nextu",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://nextu.se/"
+        }
+      ]
     }
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
