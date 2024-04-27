@@ -23,7 +23,7 @@ const greeting = {
   username: "Sae Na Na",
   title: "Hello, I'm Sae Na",
   subTitle: emoji(
-    "Welcome to my portfolio showcasing some of my robotics, machine learning, mechatronics, and mechanical engineering projects"
+    "Welcome to my portfolio showcasing some of my robotics, machine learning, mechatronics, and mechanical engineering projects."
   ),
   resumeLink: require("./assets/files/Na_SaeNa_Resume.pdf"), // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
@@ -142,7 +142,7 @@ const bigProjects = {
         "Using an evolutionary algorithms to optimize robot speed throughout epochs in C++, using the Titan package",
       footerLink: [
         {
-          name: "Video of evolving robots",
+          name: "10s demo of robot evolution",
           url: "https://youtu.be/yHAm-wvp20A"
         }
         //  you can add extra buttons here.
@@ -155,7 +155,7 @@ const bigProjects = {
         "Designed, 3D-printed, assembled electronics, and developed software for a quadruped walking robot.",
       footerLink: [
         {
-          name: "5 minute journey video",
+          name: "5 min journey video",
           url: "https://youtu.be/nrEPlOXd7_k"
         }
       ]
@@ -167,7 +167,7 @@ const bigProjects = {
         "Designed, manufactured, and competed with a high-efficiency electric vehicle with a team of ~25 members.",
       footerLink: [
         {
-          name: "CEV project website",
+          name: "Cornell Electric Vehicles website",
           url: "https://cev.engineering.cornell.edu/#/competition"
         }
       ]
@@ -179,8 +179,8 @@ const bigProjects = {
         "Designed and metal printed (DMLS) a lightweight brake pedal for the high efficiency electric vehicle",
       footerLink: [
         {
-          name: "Report submission",
-          url: "src/assets/files/robotlearning-ppt.png"
+          name: "5-page report",
+          url: require("./assets/files/gen-design-report.pdf")
         }
       ]
     },
@@ -191,28 +191,10 @@ const bigProjects = {
         "Compared the performance of a classical neural network vs from model predictive control for solving the double pendulum problem.",
       footerLink: [
         {
-          name: "Result slide deck",
-          url: ""
+          name: "18-page learnings slide deck",
+          url: require("./assets/files/robotlearning-ppt.pdf")
         }
       ]
-    },
-    {
-      image: require("./assets/images/comp-stops.png"),
-      projectName: "Composite stops for bipedal robot",
-      projectDesc:
-        "Designed and manufactured composite stops via 3D-printed molds and two-part foam to use as a mechanical knee buffer for a bidepal robot",
-      footerLink: [
-        {
-          name: "Report",
-          url: ""
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/carbon-fiber.png"),
-      projectName: "Carbon fiber imaging",
-      projectDesc:
-        "Prepped a sample of carbon fiber nanotube via hydraulic press mounting and performed CT scan and miscroscope analysis"
     },
     {
       image: require("./assets/images/amr.png"),
@@ -221,30 +203,8 @@ const bigProjects = {
         "Programmed an iRobot Roomba to perform SLAM and navigate a maze to hit as many waypoints in the shortest possible route",
       footerLink: [
         {
-          name: "Report",
-          url: "https://saenana.github.io/assets/images/portfolio/amr-report.pdf"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/mechatronics.png"),
-      projectName: "Cube collecting robot",
-      projectDesc: "description",
-      footerLink: [
-        {
-          name: "Report",
-          url: "" //amr-report.pdf
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/motor-dyno.png"),
-      projectName: "Motor dynamometer",
-      projectDesc: "description",
-      footerLink: [
-        {
-          name: "Report",
-          url: "" //amr-report.pdf
+          name: "4-page report",
+          url: require("./assets/files/amr-report.pdf")
         }
       ]
     },
@@ -255,15 +215,45 @@ const bigProjects = {
         "Designed the parameters for a steering system by calculating optimal steering ratios in MATLAB, and manufactured a prototype for testing",
       footerLink: [
         {
-          name: "Report",
-          url: ""
+          name: "45-page report",
+          url: require("./assets/files/steering-report.pdf")
         }
       ]
     },
     {
+      image: require("./assets/images/comp-stops.png"),
+      projectName: "Composite stops for bipedal robot",
+      projectDesc:
+        "Designed and manufactured composite stops via 3D-printed molds and two-part foam to use as a mechanical knee buffer for a bidepal robot",
+      footerLink: [
+        {
+          name: "10-page report",
+          url: require("./assets/files/comp-stops-report.pdf")
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/carbon-fiber.png"),
+      projectName: "Carbon fiber imaging",
+      projectDesc:
+        "Prepped a sample of carbon fiber nanotube via hydraulic press mounting and performed CT scan and miscroscope analysis"
+    },
+
+    {
+      image: require("./assets/images/motor-dyno.png"),
+      projectName: "Motor dynamometer",
+      projectDesc: "description"
+    },
+    {
+      image: require("./assets/images/mechatronics.png"),
+      projectName: "Cube collecting robot",
+      projectDesc: "description"
+    },
+    {
       image: require("./assets/images/veggie-chopper2.png"),
       projectName: "Acrylic Laser-cut Vegetable Chopper",
-      projectDesc: ""
+      projectDesc:
+        "Designed and manufactured an acrylic vegetable chopper using a cam-gear system in 3-week project timeline"
     },
     {
       image: require("./assets/images/outreach.png"),
