@@ -207,6 +207,42 @@ const bigProjects = {
           url: ""
         }
       ]
+    },
+    {
+      image: require("./assets/images/comp-stops.png"),
+      projectName: "Composite stops for bipedal robot",
+      projectDesc:
+        "Designed and manufactured composite stops via 3D-printed molds and two-part foam to use as a mechanical knee buffer for a bidepal robot",
+      footerLink: [
+        {
+          name: "Report",
+          url: ""
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/carbon-fiber.png"),
+      projectName: "Carbon fiber imaging",
+      projectDesc:
+        "Compared the performance of a classical neural network vs from model predictive control for solving the double pendulum problem.",
+      footerLink: [
+        {
+          name: "Result slide deck",
+          url: ""
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/amr.png"),
+      projectName: "SLAM with waypoint navigation",
+      projectDesc:
+        "Programmed an iRobot Roomba to perform SLAM and navigate a maze to hit as many waypoints in the shortest possible route",
+      footerLink: [
+        {
+          name: "Report",
+          url: "" //amr-report.pdf
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
