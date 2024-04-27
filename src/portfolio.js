@@ -25,7 +25,7 @@ const greeting = {
   subTitle: emoji(
     "Welcome to my portfolio showcasing some of my robotics, machine learning, mechatronics, and mechanical engineering projects"
   ),
-  resumeLink: "./assets/files/Na_SaeNa_Resume.pdf", // Set to empty to hide the button
+  resumeLink: "/developerFolio/src/assets/files/Na_SaeNa_Resume.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -104,19 +104,19 @@ const workExperiences = {
       role: "Mechatronics Design Engineer",
       company: "ASML",
       companylogo: require("./assets/images/icon-asml.png"),
-      date: "Aug 2018 - Dec 2018, Jan 2020 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      date: "Jan 2020 – Present",
+      desc: " "
+      //descBullets: [
+      //  "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //  "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      //]
     },
     {
       role: "Hydraulics and Landing Gear Intern",
       company: "Honda Aircraft Company",
       companylogo: require("./assets/images/icon-honda.png"),
       date: "May 2018 – Aug 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      desc: " "
     }
   ]
 };
@@ -173,18 +173,6 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/rr.png"),
-      projectName: "Outreach",
-      projectDesc:
-        "Demoing engineering tests and applications to local high school students",
-      footerLink: [
-        {
-          name: "News article",
-          url: "https://www.ctinsider.com/news/thehour/article/Norwalk-robotics-team-gets-inside-look-of-15084347.php"
-        }
-      ]
-    },
-    {
       image: require("./assets/images/gen-design.png"),
       projectName: "Generatively Designed Brake Pedal",
       projectDesc:
@@ -192,7 +180,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Report submission",
-          url: ""
+          url: "./assets/files/robotlearning-ppt.png"
         }
       ]
     },
@@ -224,13 +212,7 @@ const bigProjects = {
       image: require("./assets/images/carbon-fiber.png"),
       projectName: "Carbon fiber imaging",
       projectDesc:
-        "Compared the performance of a classical neural network vs from model predictive control for solving the double pendulum problem.",
-      footerLink: [
-        {
-          name: "Result slide deck",
-          url: ""
-        }
-      ]
+        "Prepped a sample of carbon fiber nanotube via hydraulic press mounting and performed CT scan and miscroscope analysis"
     },
     {
       image: require("./assets/images/amr.png"),
@@ -240,9 +222,48 @@ const bigProjects = {
       footerLink: [
         {
           name: "Report",
+          url: "https://saenana.github.io/assets/images/portfolio/amr-report.pdf"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/mechatronics.png"),
+      projectName: "Cube collecting robot",
+      projectDesc: "description",
+      footerLink: [
+        {
+          name: "Report",
           url: "" //amr-report.pdf
         }
       ]
+    },
+    {
+      image: require("./assets/images/motor-dyno.png"),
+      projectName: "Motor dynamometer",
+      projectDesc: "description",
+      footerLink: [
+        {
+          name: "Report",
+          url: "" //amr-report.pdf
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/rr-steering-proto.png"),
+      projectName: "Steering System Prototype",
+      projectDesc:
+        "Designed the parameters for a steering system by calculating optimal steering ratios in MATLAB, and manufactured a prototype for testing",
+      footerLink: [
+        {
+          name: "Report",
+          url: ""
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/veggie-chopper2.png"),
+      projectName: "Acrylic Laser-cut Vegetable Chopper",
+      projectDesc: ""
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -252,53 +273,24 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: "Projects",
+  title: "Other Work",
   subtitle: " ",
 
   achievementsCards: [
     {
-      title: "Evolutionary Algorithms",
+      title: "Outreach",
       subtitle:
-        "Using an evolutionary algorithms to optimize robot speed throughout epochs in C++, using the Titan package",
-      image: require("./assets/images/evolving-robots.png"),
-      imageAlt: "Evolutionary Algorithms",
+        "Encouraging STEM participation in local high schools by demoing engineering tests and applications",
+      image: require("./assets/images/outreach.png"),
       footerLink: [
         {
-          name: "Video of evolving robots",
-          url: "https://youtu.be/yHAm-wvp20A"
-        }
-      ]
-    },
-    {
-      title: "Catbot",
-      subtitle:
-        "Designed, 3D-printed, assembled electronics, and developed software for a quadruped walking robot.",
-      image: require("./assets/images/catbot.png"),
-      imageAlt: "Catbot",
-      footerLink: [
-        {
-          name: "5 minute journey video",
-          url: "https://youtu.be/nrEPlOXd7_k"
-        }
-      ]
-    },
-
-    {
-      title: "Shell Eco-Marathon",
-      subtitle:
-        "Designed, manufactured, and competed with a high-efficiency electric vehicle with a team of ~25 members.",
-      image: require("./assets/images/rr.png"),
-      imageAlt: "Shell Eco-Marathon",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "CEV project website",
-          url: "https://cev.engineering.cornell.edu/#/competition"
+          name: "News article",
+          url: "https://www.ctinsider.com/news/thehour/article/Norwalk-robotics-team-gets-inside-look-of-15084347.php"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -312,19 +304,19 @@ const educationInfo = {
       subHeader:
         "Master of Science in Mechanical Engineering (Robotics and Controls)",
       duration: "2021 - 2025",
-      desc: "Attending while working full-time",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      desc: "Attending while working full-time"
+      //descBullets: [
+      //  "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //  "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      //]
     },
     {
       schoolName: "Cornell University",
       logo: require("./assets/images/cornell-logo.png"),
       subHeader: "Bachelor of Science in Mechanical Engineering",
       duration: "2016 - 2019",
-      desc: "Summa cum laude. Accelerated studies and graduated in 6 semesters.",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      desc: "Summa cum laude. Accelerated studies and graduated in 6 semesters."
+      //descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
   ]
 };
