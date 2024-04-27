@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3cf13eba.css",
-    "main.js": "/static/js/main.33837a27.js",
+    "main.js": "/static/js/main.5ae2d393.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
@@ -14,6 +14,7 @@
     "static/media/mechatronics.png": "/static/media/mechatronics.e74a7f5e1feaa376492c.png",
     "static/media/gen-design-report.pdf": "/static/media/gen-design-report.887ed742310bbb11edc4.pdf",
     "static/media/carbon-fiber.png": "/static/media/carbon-fiber.1649a4024c40b8e1dc3c.png",
+    "static/media/author.jpg": "/static/media/author.e3106f4ce662a216c9a8.jpg",
     "static/media/catbot.png": "/static/media/catbot.b50796ff0f5c89e3f223.png",
     "static/media/robotlearning-ppt.pdf": "/static/media/robotlearning-ppt.55ed489783b152efd62d.pdf",
     "static/media/amr-report.pdf": "/static/media/amr-report.94efa84a0905878a860e.pdf",
@@ -23,7 +24,6 @@
     "static/media/evolving-robots.png": "/static/media/evolving-robots.c96bc6b5132430192e29.png",
     "static/media/gen-design.png": "/static/media/gen-design.183fe9adcd8569f87ed6.png",
     "static/media/amr.png": "/static/media/amr.a38e31f65368497a8b5b.png",
-    "static/media/author-549x644.jpg": "/static/media/author-549x644.353ba331e4dd080a802c.jpg",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
@@ -35,7 +35,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.3cf13eba.css.map": "/static/css/main.3cf13eba.css.map",
-    "main.33837a27.js.map": "/static/js/main.33837a27.js.map",
+    "main.5ae2d393.js.map": "/static/js/main.5ae2d393.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -43,6 +43,6 @@
   },
   "entrypoints": [
     "static/css/main.3cf13eba.css",
-    "static/js/main.33837a27.js"
+    "static/js/main.5ae2d393.js"
   ]
 }
