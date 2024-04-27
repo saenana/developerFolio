@@ -16,7 +16,7 @@ const splashScreen = {
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+  animated: false // Set to false to use static SVG
 };
 
 const greeting = {
@@ -25,7 +25,7 @@ const greeting = {
   subTitle: emoji(
     "Welcome to my portfolio showcasing some of my robotics, machine learning, mechatronics, and mechanical engineering projects"
   ),
-  resumeLink: "/developerFolio/src/assets/files/Na_SaeNa_Resume.pdf", // Set to empty to hide the button
+  resumeLink: require("./assets/files/Na_SaeNa_Resume.pdf"), // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -180,7 +180,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Report submission",
-          url: "./assets/files/robotlearning-ppt.png"
+          url: "src/assets/files/robotlearning-ppt.png"
         }
       ]
     },
@@ -264,6 +264,18 @@ const bigProjects = {
       image: require("./assets/images/veggie-chopper2.png"),
       projectName: "Acrylic Laser-cut Vegetable Chopper",
       projectDesc: ""
+    },
+    {
+      image: require("./assets/images/outreach.png"),
+      projectName: "Outreach",
+      projectDesc:
+        "Encouraging STEM participation in local high schools by demoing engineering tests and applications",
+      footerLink: [
+        {
+          name: "News article",
+          url: "https://www.ctinsider.com/news/thehour/article/Norwalk-robotics-team-gets-inside-look-of-15084347.php"
+        }
+      ]
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -290,7 +302,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Education Section
