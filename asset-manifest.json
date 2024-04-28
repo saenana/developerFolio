@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3cf13eba.css",
-    "main.js": "/static/js/main.302fbe31.js",
+    "main.js": "/static/js/main.cc554405.js",
     "static/css/64.bba8fa55.chunk.css": "/static/css/64.bba8fa55.chunk.css",
     "static/js/64.56dc6704.chunk.js": "/static/js/64.56dc6704.chunk.js",
     "static/css/769.b3cbb36b.chunk.css": "/static/css/769.b3cbb36b.chunk.css",
@@ -18,13 +18,13 @@
     "static/media/robotlearning-ppt.pdf": "/static/media/robotlearning-ppt.55ed489783b152efd62d.pdf",
     "static/media/amr-report.pdf": "/static/media/amr-report.94efa84a0905878a860e.pdf",
     "static/media/sfm.png": "/static/media/sfm.9087b2748b3d8cf79a13.png",
-    "static/media/author.jpg": "/static/media/author.4f3853321124db970e00.jpg",
     "static/media/comp-stops-report.pdf": "/static/media/comp-stops-report.929496d90bd5f2a3738b.pdf",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/veggie-chopper2.png": "/static/media/veggie-chopper2.3837a2180b13feb30c05.png",
     "static/media/evolving-robots.png": "/static/media/evolving-robots.c96bc6b5132430192e29.png",
     "static/media/gen-design.png": "/static/media/gen-design.183fe9adcd8569f87ed6.png",
     "static/media/amr.png": "/static/media/amr.a38e31f65368497a8b5b.png",
+    "static/media/author.jpg": "/static/media/author.1bff99b26938fa914567.jpg",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
     "static/media/developerActivity.svg": "/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
@@ -36,7 +36,7 @@
     "index.html": "/index.html",
     "static/media/talksCardBack.svg": "/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
     "main.3cf13eba.css.map": "/static/css/main.3cf13eba.css.map",
-    "main.302fbe31.js.map": "/static/js/main.302fbe31.js.map",
+    "main.cc554405.js.map": "/static/js/main.cc554405.js.map",
     "64.bba8fa55.chunk.css.map": "/static/css/64.bba8fa55.chunk.css.map",
     "64.56dc6704.chunk.js.map": "/static/js/64.56dc6704.chunk.js.map",
     "769.b3cbb36b.chunk.css.map": "/static/css/769.b3cbb36b.chunk.css.map",
@@ -44,6 +44,6 @@
   },
   "entrypoints": [
     "static/css/main.3cf13eba.css",
-    "static/js/main.302fbe31.js"
+    "static/js/main.cc554405.js"
   ]
 }
