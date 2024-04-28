@@ -227,13 +227,7 @@ const bigProjects = {
       image: require("./assets/images/rr-steering-proto.png"),
       projectName: "Steering System Prototype",
       projectDesc:
-        "Designed the parameters for a steering system by calculating optimal steering ratios in MATLAB, and manufactured a prototype for testing",
-      footerLink: [
-        {
-          name: "45-page report",
-          url: " " //require("./assets/files/steering-report.pdf")
-        }
-      ]
+        "Designed the parameters for a steering system by calculating optimal steering ratios in MATLAB, and manufactured a prototype for testing"
     },
     {
       image: require("./assets/images/comp-stops.png"),
