@@ -142,8 +142,8 @@ const bigProjects = {
         "Exploring the Structure from Motion (SfM) pipeline for the 2024 Image Matching Challenge",
       footerLink: [
         {
-          name: "4-page report TBD",
-          url: " "
+          name: "4-page report",
+          url: require("./assets/files/sfm-report.pdf")
         },
         {
           name: "Competition link (Kaggle)",
